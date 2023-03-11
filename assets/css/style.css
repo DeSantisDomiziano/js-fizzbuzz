@@ -28,11 +28,20 @@ h1 {
     width: 90px;
     aspect-ratio: 1;
     background-color: cornflowerblue;
-}
-
-
-.center-flex {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.8rem;
+}
+
+.fizz {
+    background-color: green;
+}
+
+.buzz {
+    background-color: greenyellow;
+}
+
+.fizzBuzz {
+    background-color: crimson;
 }
