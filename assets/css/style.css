@@ -12,17 +12,27 @@ body {
 .d-flex {
     display: flex;
     flex-wrap: wrap;
-}
-
-.box {
-    width: 50px;
-    aspect-ratio: 1;
-    background-color: bisque;
+    max-width: 90%;
+    margin: auto;
+    gap: 1rem;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     min-width: 100%;
     padding: 2rem;
     font-size: 5rem;
+}
+
+.box {
+    width: 90px;
+    aspect-ratio: 1;
+    background-color: cornflowerblue;
+}
+
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
